@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity 4 - Contact Form</title>
+</head>
+<body>
+  <header>
+    <h1>Activity 4</h1>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="Activity_3.html">Activity 3</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="#" method="post">
+        <p>
+          <label for="full-name">Full name:</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full_name"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="phone">Telephone number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="subject">Subject:</label>
+          <select
+            id="subject"
+            name="subject"
+            required
+          >
+            <option value="">Choose a subject</option>
+            <option value="general">General inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+            required
+          ></textarea>
+        </p>
+
+        <p>
+          <input
+            type="checkbox"
+            id="agreement"
+            name="agreement"
+            required
+          >
+          <label for="agreement">
+            I confirm that the information provided is correct.
+          </label>
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Shakir Ali - Activity 4</p>
+  </footer>
+</body>
+</html>
