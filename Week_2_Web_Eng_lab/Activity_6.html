@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activity 6</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Activity 6</h1>
+
+    <nav aria-label="Activity 6 navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <article id="about" class="card">
+      <h2>About Me</h2>
+
+      <p>
+        My name is <strong>Shakir</strong> and I am learning web development.
+      </p>
+
+      <p class="muted">
+        I am a Computer Science Student.
+      </p>
+
+      <img
+        src="Sunset.webp"
+        alt="Sunset over a landscape"
+        width="300"
+        height="200"
+      >
+    </article>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Problem-solving</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <!-- Form -->
+      <form action="#" method="post">
+        <p>
+          <label for="full-name">Full name:</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full_name"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="phone">Telephone number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+          >
+        </p>
+
+        <p>
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject" required>
+            <option value="">Choose a subject</option>
+            <option value="general">General inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+        </p>
+
+        <p>
+          <input
+            type="checkbox"
+            id="agreement"
+            name="agreement"
+            required
+          >
+          <label for="agreement">
+            I confirm that the information provided is correct.
+          </label>
+        </p>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Shakir Ali - Activity 6</p>
+  </footer>
+
+</body>
+</html>
