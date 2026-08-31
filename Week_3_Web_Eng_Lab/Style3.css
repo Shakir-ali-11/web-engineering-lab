@@ -1,0 +1,19 @@
+/* 1) Element selector: 0,0,1 */
+p {
+  color: green;
+}
+
+/* 2) Class selector: 0,1,0 */
+.intro {
+  color: crimson;
+}
+
+/* 3) Element + class: 0,1,1 */
+p.intro {
+  color: purple;
+}
+
+/* 4) ID + element: 1,0,1 */
+#main p {
+  color: navy;
+}
